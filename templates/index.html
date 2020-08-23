@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Dummy Index Show Up!</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
-<body>
-    This is an index sample.
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block title %}
+Dummy Index Show Up!
+{% endblock %}
+
+{% block body %}
+<h1>This is an index sample.</h1>
+{% endblock %}
